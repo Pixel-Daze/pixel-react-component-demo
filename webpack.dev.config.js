@@ -22,6 +22,10 @@ module.exports = {
         {
           test: /\.cm\.styl$/,
           loader: 'style-loader!css-loader?modules&camelCase&localIdentName=[local]-[hash:base64:5]!stylus-loader'
+        },
+        {
+          test:/\.scss$/,
+          loaders:['style-loader','css-loader','sass-loader']
         }
       ]
     },

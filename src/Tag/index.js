@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './index.scss';
 
 class Tag extends Component {
     constructor(props){
@@ -7,7 +8,7 @@ class Tag extends Component {
 
     render () {
         return <div>
-            <span>hello world</span>
+            <span className="red">hello world</span>
         </div>
     }
 }
