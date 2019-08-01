@@ -1,6 +1,6 @@
 {
   "name": "pixel-react-component-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/bundle.js",
   "files": [
@@ -15,8 +15,8 @@
   "license": "ISC",
   "dependencies": {
     "prop-types": "15.6.0",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
